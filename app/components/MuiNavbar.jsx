@@ -240,9 +240,6 @@ function AppAppBar({ mode, toggleColorMode }) {
   );
 }
 
-AppAppBar.propTypes = {
-  mode: PropTypes.oneOf(['dark', 'light']).isRequired,
-  toggleColorMode: PropTypes.func.isRequired,
-};
+
 
 export default AppAppBar;
