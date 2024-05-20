@@ -15,6 +15,8 @@ import MuiNavbar from "./components/MuiNavbar";
 // import MuiSpeedDial from "./components/MuiSpeedDial";
 // import MuiBottonNavigation from "./components/MuiBottonNavigation";
 import MuiHero from './components/MuiHero';
+import LogoCollections from "./components/LogoCollections";
+import ProductFeatures from "./components/ProductFeatures";
 
 export default function Home() {
   return (
@@ -35,6 +37,8 @@ export default function Home() {
     {/* <MuiSpeedDial /> */}
     {/* <MuiBottonNavigation /> */}
     <MuiHero />
+    <LogoCollections />
+    <ProductFeatures />
    </div>
   );
 }
