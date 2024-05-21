@@ -8,7 +8,7 @@
 // import MuiSwitch from "./components/MuiSwitch";
 // import MuiLayout from "./components/MuiLayout";
 // import MuiCard from "./components/MuiCard";
-// import MuiAccordion from "./components/MuiAccordion";
+import MuiAccordion from "./components/MuiAccordion";
 // import MuiImageList from "./components/MuiImageList";
 import MuiNavbar from "./components/MuiNavbar";
 // import MuiDrawer from "./components/MuiDrawer";
@@ -42,6 +42,7 @@ export default function Home() {
     <ProductFeatures />
     <Testimonials />
     <Highlights />
+    <MuiAccordion />
    </div>
   );
 }

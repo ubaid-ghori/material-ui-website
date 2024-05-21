@@ -134,6 +134,7 @@ function AppAppBar({ mode, toggleColorMode }) {
                 </MenuItem>
               </Box>
             </Box>
+
             <Box
               sx={{
                 display: { xs: 'none', md: 'flex' },
@@ -163,6 +164,7 @@ function AppAppBar({ mode, toggleColorMode }) {
                 Sign up
               </Button>
             </Box>
+            
             <Box sx={{ display: { sm: '', md: 'none' } }}>
               <Button
                 variant="text"
