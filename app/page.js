@@ -17,7 +17,8 @@ import MuiNavbar from "./components/MuiNavbar";
 import MuiHero from './components/MuiHero';
 import LogoCollections from "./components/LogoCollections";
 import ProductFeatures from "./components/ProductFeatures";
-
+import Testimonials from './components/Testimonials'
+import Highlights from './components/Highlights'
 export default function Home() {
   return (
    <div>
@@ -39,6 +40,8 @@ export default function Home() {
     <MuiHero />
     <LogoCollections />
     <ProductFeatures />
+    <Testimonials />
+    <Highlights />
    </div>
   );
 }
